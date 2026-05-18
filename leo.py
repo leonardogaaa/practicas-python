@@ -1,0 +1,6 @@
+segundos=float(input("¿Cuantos segundos?"))
+min=(segundos//60)
+seg=(segundos%60)
+horas=(min//60)
+minu=(min%60)
+print(horas,minu,seg)
